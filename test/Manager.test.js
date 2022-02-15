@@ -7,12 +7,12 @@ describe("Manager", () => {
   });
 
   it("Should get office number value", () => {
-    const manager = new Manager("Victor", 1234567, "manager@mail.com", 123);
+    const manager = new Manager("Bob", 1234567, "manager@mail.com", 123);
 
     expect(manager.getOfficeNumber()).toEqual(expect.any(Number));
   });
   it("gets role of employee", () => {
-    const manager = new Manager("Victor", 1234567, "manager@mail.com", 123);
+    const manager = new Manager("Bob", 1234567, "manager@mail.com", 123);
 
     expect(manager.getRole()).toEqual("Manager");
   });

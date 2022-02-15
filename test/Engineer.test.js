@@ -8,10 +8,10 @@ describe("Engineer", () => {
 
   it("Should get engineer github value", () => {
     const engineer = new Engineer(
-      "Victor",
+      "Bob",
       123456,
-      "eng@mail.com",
-      "victoreng"
+      "BobEng@mail.com",
+      "BobEng"
     );
 
     expect(engineer.getGithub()).toEqual(
@@ -20,10 +20,10 @@ describe("Engineer", () => {
   });
   it("gets role of employee", () => {
     const engineer = new Engineer(
-      "Victor",
+      "Bob",
       123456,
-      "eng@mail.com",
-      "victoreng"
+      "BobEng@mail.com",
+      "BobEng"
     );
 
     expect(engineer.getRole()).toEqual("Engineer");

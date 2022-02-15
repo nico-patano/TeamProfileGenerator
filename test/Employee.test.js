@@ -7,8 +7,8 @@ describe("Employee", () => {
   });
 
   it("Should get the Employee's name when running the function getName", () => {
-    const test = new Employee("Victor");
-    expect(test.getName()).toBe("Victor");
+    const test = new Employee("Bob");
+    expect(test.getName()).toBe("Bob");
   });
 
   it("Should get the Employee's ID when running the function getId", () => {
@@ -22,12 +22,12 @@ describe("Employee", () => {
   });
 
   it("Should pull the Employee's name", () => {
-    const test = new Employee("Victor");
-    expect(test.name).toBe("Victor");
+    const test = new Employee("Bob");
+    expect(test.name).toBe("Bob");
   });
 
   it("Should get me the Employee's ID", () => {
-    const test = new Employee("Victor", 12345);
+    const test = new Employee("Bob", 12345);
     expect(test.id).toBe(12345);
   });
 });

@@ -7,14 +7,14 @@ describe("Intern", () => {
   });
 
   it("Should get school value", () => {
-    const intern = new Intern("Victor", 1234567, "intern@mail.com", "UofT");
+    const intern = new Intern("Bob", 1234567, "intern@mail.com", "UofT");
 
     expect(intern.getSchool()).toEqual(
       expect.stringContaining(intern.school.toString())
     );
   });
   it("gets role of employee", () => {
-    const intern = new Intern("Victor", 1234567, "intern@mail.com", "UofT");
+    const intern = new Intern("Bob", 1234567, "intern@mail.com", "UofT");
 
     expect(intern.getRole()).toEqual("Intern");
   });
